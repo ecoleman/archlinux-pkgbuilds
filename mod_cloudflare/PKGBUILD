@@ -3,11 +3,8 @@
 pkgname=mod_cloudflare-git
 _pkgname=mod_cloudflare
 pkgver=20120628
-pkgrel=2
-pkgdesc="Based on mod_remoteip.c, this apache extension will replace the
-remote_ip variable in user's logs with the correct remote_ip sent from
-CloudFlare. This also does authentication, only performing the switch for
-requests originating from 204.93.173.0/24 (by default)."
+pkgrel=1
+pkgdesc="Replaces CloudFlares ip with the actual client ip address."
 arch=('i686' 'x86_64')
 url='https://github.com/cloudflare/mod_cloudflare'
 license=('Apache')
